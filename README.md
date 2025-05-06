@@ -1,8 +1,7 @@
-御坂美琴应援站（Misaka-Mikoto.com）​​
+# 御坂美琴应援站（Misaka-Mikoto.com）​​
 ​**⚡ 一个基于 Vue 3 + SCSS + Iconify 开发的动漫角色应援网站**​
 
-https://via.placeholder.com/800x400?text=Misaka+Mikoto+Fan+Site
-（此处可替换为实际项目截图或 GIF）
+[此处放图片]
 
 ​**✨ 项目介绍**​
 这是一个为《魔法禁书目录》/《某科学的超电磁炮》中的角色 ​御坂美琴（Misaka Mikoto）​​ 开发的粉丝应援网站，包含角色介绍、经典台词、图片墙、应援留言板等功能。
@@ -13,7 +12,6 @@ https://via.placeholder.com/800x400?text=Misaka+Mikoto+Fan+Site
 ​样式预处理器: SCSS
 ​图标库: Iconify
 ​构建工具: Vite
-​部署: GitHub Pages / Vercel
 ​🚀 功能特性​
 '''
 构建中...
