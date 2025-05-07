@@ -18,8 +18,9 @@ const switchItem = (index: number) => {
 </script>
 
 <template>
-  <div class="sidebar">
+  <aside class="sidebar">
     <div class="sidebar__logo">
+      <img src="/images/railgun.svg" />
     </div>
     <ul class="sidebar__menu">
       <li class="sidebar__item" v-for="item, index in menuItems" :key="index"
@@ -27,37 +28,40 @@ const switchItem = (index: number) => {
         {{ item.title }}
       </li>
     </ul>
-  </div>
+  </aside>
 
 </template>
 
 <style lang="scss" scoped>
 .sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 240px;
-  background-color: rgb(255, 255, 255);
+  height: 100%;
+  background-color: #F5F5F5;
   border-right: 1px solid rgba(#000, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  .sidebar__logo {
+    margin: 20px 0;
+    img {
+      width: 80%;
+    }
+  }
   .sidebar__menu {
     width: 100%;
 
     .sidebar__item {
+      list-style: none;
       position: relative;
-      height: 1.5em;
-      line-height: 1.5em;
+      height: 45px;
+      line-height: 45px;
       text-align: center;
       transition: all 0.5s;
+      color: #000;
       cursor: pointer;
-
+      z-index: 1;
       font: {
-        size: 24px;
-        weight: bold;
+        size: 20px;
+        weight: 1000;
       }
 
       &::after,
@@ -74,11 +78,11 @@ const switchItem = (index: number) => {
       }
 
       &::after {
-        background: linear-gradient(90deg, #44ffe3d8, #00fffbda);
+        background: linear-gradient(90deg, #44ffe3d8, #00ff6ada);
       }
 
       &::before {
-        background: linear-gradient(-45deg, #ff9844 0%, #ff3300 100%);
+        background: linear-gradient(-45deg, #ff9500 0%, #ff0000 100%);
       }
 
       &:hover:not(.active)::after {
