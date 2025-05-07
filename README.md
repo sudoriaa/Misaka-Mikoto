@@ -1,5 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# 御坂美琴应援站（Misaka-Mikoto.com）  
+​**⚡ 基于 Vue 3 + SCSS + Iconify 开发的超电磁炮应援站**​  
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[网站预览]
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## ✨ 项目介绍  
+专为《某科学的超电磁炮》人气角色御坂美琴打造的粉丝应援平台，包含以下核心功能：  
+- 角色资料卡（能力值/经典场景）  
+- 动态台词轮播系统  
+- 高清图片墙（懒加载优化）  
+- 粉丝互动留言板  
+
+​**技术栈**​  
+| 类别 | 技术选型 |  
+|------|----------|  
+| 框架 | Vue 3 (Composition API) |  
+| 样式 | SCSS + CSS变量 |  
+| 图标 | Iconify |  
+| 构建 | Vite |  
+| 部署 | Vercel Edge |  
+
+---
+
+## 🚀 核心特性  
+```
+构建中
+```
