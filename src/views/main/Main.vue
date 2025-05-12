@@ -51,10 +51,10 @@ import { Icon } from '@iconify/vue';
 .container {
   display: flex;
   min-height: 100vh;
-  max-width: 1400px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #FFEECC;
+  background-color: #fffbf3;
 
   .main-sidebar {
     position: sticky;
@@ -98,6 +98,8 @@ import { Icon } from '@iconify/vue';
       width: 100%;
       .content {
         flex: 1;
+        min-height: 100vh;  
+        padding: 1% 2%;
       }
       .secondary-sidebar {
         width: 240px;
