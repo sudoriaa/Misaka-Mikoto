@@ -83,6 +83,9 @@ onUnmounted(() => {
 </template>
 
 <style lang="scss" scoped>
+
+
+
 .slide-container {
     width: 100%;
     aspect-ratio: 1/0.5;

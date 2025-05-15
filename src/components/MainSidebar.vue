@@ -28,6 +28,10 @@ const switchItem = (index: number) => {
         {{ item.title }}
       </li>
     </ul>
+
+    <div class="sidebar__footer">
+      <img src="/images/mikoto1.png" />
+    </div>
   </aside>
 
 </template>
@@ -96,6 +100,16 @@ const switchItem = (index: number) => {
 
         color: #fff;
       }
+    }
+
+  }
+  .sidebar__footer {
+    width: 100%;
+    margin-top: auto;
+    opacity: 0.5;
+    img {
+      width: 100%;
+      height: 100%;
     }
   }
 

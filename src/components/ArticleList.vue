@@ -118,6 +118,7 @@ const openArticle = (id: Number) => {
                 .article-title {
                     display: flex;
                     align-items: center;
+                    white-space: nowrap;
                     &.article-top::before {
                         content: '置顶';
                         background: linear-gradient(-45deg, #ffa652 0%, #ff4805 100%);

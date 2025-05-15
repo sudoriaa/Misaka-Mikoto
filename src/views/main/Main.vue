@@ -43,8 +43,9 @@ import { Icon } from '@iconify/vue';
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
-  background-size: 10px 10px;
+  background-size: 20px 20px;
   background-attachment: fixed;
+
   z-index: -1;
 }
 
@@ -100,6 +101,7 @@ import { Icon } from '@iconify/vue';
         flex: 1;
         min-height: 100vh;  
         padding: 1% 2%;
+        max-width: 900px;
       }
       .secondary-sidebar {
         width: 240px;
@@ -110,5 +112,17 @@ import { Icon } from '@iconify/vue';
   }
 
 
+}
+
+@media (max-width: 990px) {
+  .secondary-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-sidebar {
+    display: none;
+  }
 }
 </style>
